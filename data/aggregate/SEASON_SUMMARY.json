@@ -1,0 +1,1010 @@
+[
+  {
+    "axis": "cluster_loso",
+    "family": "RF",
+    "crop": "maize",
+    "contrast": "C-P",
+    "seasons": 15,
+    "adverse_rmse": 9,
+    "adverse_mae": 10,
+    "median_relative_percent": 0.5538987941223761,
+    "min_relative_percent": -18.984517872684272,
+    "max_relative_percent": 38.750997018990674,
+    "worst_absolute_rmse": [
+      {
+        "site_id": "US-Ne1",
+        "year": 2019,
+        "n": 117,
+        "delta_rmse": 0.893612595661545,
+        "relative_percent": 38.750997018990674,
+        "rmse_ref": 2.306037687813846,
+        "rmse_arm": 3.1996502834753913
+      },
+      {
+        "site_id": "US-Ne1",
+        "year": 2018,
+        "n": 183,
+        "delta_rmse": 0.8394388028777935,
+        "relative_percent": 22.265518453155742,
+        "rmse_ref": 3.7701291557341556,
+        "rmse_arm": 4.609567958611949
+      },
+      {
+        "site_id": "US-Ne1",
+        "year": 2013,
+        "n": 167,
+        "delta_rmse": 0.6897049599434415,
+        "relative_percent": 18.967281594675313,
+        "rmse_ref": 3.636287870250541,
+        "rmse_arm": 4.325992830193982
+      }
+    ],
+    "equal_season_delta_rmse": 0.059016366207835465
+  },
+  {
+    "axis": "cluster_loso",
+    "family": "RF",
+    "crop": "maize",
+    "contrast": "C-S",
+    "seasons": 15,
+    "adverse_rmse": 4,
+    "adverse_mae": 3,
+    "median_relative_percent": -1.3762909896670616,
+    "min_relative_percent": -4.566529312751133,
+    "max_relative_percent": 6.752885109116136,
+    "worst_absolute_rmse": [
+      {
+        "site_id": "US-Ne1",
+        "year": 2012,
+        "n": 156,
+        "delta_rmse": 0.1778467613732575,
+        "relative_percent": 6.752885109116136,
+        "rmse_ref": 2.6336411548475955,
+        "rmse_arm": 2.811487916220853
+      },
+      {
+        "site_id": "US-Ne3",
+        "year": 2017,
+        "n": 163,
+        "delta_rmse": 0.09461887305743222,
+        "relative_percent": 2.8194990362662153,
+        "rmse_ref": 3.3558753466620574,
+        "rmse_arm": 3.4504942197194897
+      },
+      {
+        "site_id": "US-Ne1",
+        "year": 2013,
+        "n": 167,
+        "delta_rmse": 0.03790419810281964,
+        "relative_percent": 0.883941572922553,
+        "rmse_ref": 4.288088632091163,
+        "rmse_arm": 4.325992830193982
+      }
+    ],
+    "equal_season_delta_rmse": -0.0327805147993567
+  },
+  {
+    "axis": "cluster_loso",
+    "family": "RF",
+    "crop": "maize",
+    "contrast": "P-S",
+    "seasons": 15,
+    "adverse_rmse": 7,
+    "adverse_mae": 5,
+    "median_relative_percent": -1.0153337616155111,
+    "min_relative_percent": -30.849994952972658,
+    "max_relative_percent": 25.501768473487374,
+    "worst_absolute_rmse": [
+      {
+        "site_id": "US-Ne3",
+        "year": 2017,
+        "n": 163,
+        "delta_rmse": 0.8558075611645997,
+        "relative_percent": 25.501768473487374,
+        "rmse_ref": 3.3558753466620574,
+        "rmse_arm": 4.211682907826657
+      },
+      {
+        "site_id": "US-Ne3",
+        "year": 2019,
+        "n": 174,
+        "delta_rmse": 0.5143636526242399,
+        "relative_percent": 17.796584284069674,
+        "rmse_ref": 2.890238061495117,
+        "rmse_arm": 3.404601714119357
+      },
+      {
+        "site_id": "US-IAC",
+        "year": 2020,
+        "n": 145,
+        "delta_rmse": 0.3650989783662748,
+        "relative_percent": 10.562097491795019,
+        "rmse_ref": 3.456690100142474,
+        "rmse_arm": 3.8217890785087487
+      }
+    ],
+    "equal_season_delta_rmse": -0.09179688100719216
+  },
+  {
+    "axis": "cluster_loso",
+    "family": "RF",
+    "crop": "rice",
+    "contrast": "C-P",
+    "seasons": 14,
+    "adverse_rmse": 6,
+    "adverse_mae": 7,
+    "median_relative_percent": -4.532639886634692,
+    "min_relative_percent": -33.76946065833473,
+    "max_relative_percent": 32.947890086801365,
+    "worst_absolute_rmse": [
+      {
+        "site_id": "KR-CRK",
+        "year": 2015,
+        "n": 77,
+        "delta_rmse": 0.44835339351357795,
+        "relative_percent": 32.947890086801365,
+        "rmse_ref": 1.360795463176516,
+        "rmse_arm": 1.809148856690094
+      },
+      {
+        "site_id": "KR-CRK",
+        "year": 2018,
+        "n": 183,
+        "delta_rmse": 0.43021776416064084,
+        "relative_percent": 19.511679715962128,
+        "rmse_ref": 2.204924283421318,
+        "rmse_arm": 2.635142047581959
+      },
+      {
+        "site_id": "KR-CRK",
+        "year": 2016,
+        "n": 142,
+        "delta_rmse": 0.4201154881785172,
+        "relative_percent": 14.108725580609738,
+        "rmse_ref": 2.9776997630168727,
+        "rmse_arm": 3.39781525119539
+      }
+    ],
+    "equal_season_delta_rmse": -0.11688299816358552
+  },
+  {
+    "axis": "cluster_loso",
+    "family": "RF",
+    "crop": "rice",
+    "contrast": "C-S",
+    "seasons": 14,
+    "adverse_rmse": 5,
+    "adverse_mae": 3,
+    "median_relative_percent": -2.311650212537536,
+    "min_relative_percent": -4.9796767321006685,
+    "max_relative_percent": 3.4010545373498235,
+    "worst_absolute_rmse": [
+      {
+        "site_id": "KR-HPK",
+        "year": 2016,
+        "n": 118,
+        "delta_rmse": 0.08308199569248664,
+        "relative_percent": 3.4010545373498235,
+        "rmse_ref": 2.442830445089719,
+        "rmse_arm": 2.525912440782206
+      },
+      {
+        "site_id": "KR-HPK",
+        "year": 2018,
+        "n": 139,
+        "delta_rmse": 0.06736243083252091,
+        "relative_percent": 2.86539319427086,
+        "rmse_ref": 2.3508965878472505,
+        "rmse_arm": 2.4182590186797714
+      },
+      {
+        "site_id": "KR-CmF",
+        "year": 2014,
+        "n": 123,
+        "delta_rmse": 0.054354807558653295,
+        "relative_percent": 2.276890407717569,
+        "rmse_ref": 2.3872386380309156,
+        "rmse_arm": 2.441593445589569
+      }
+    ],
+    "equal_season_delta_rmse": -0.04089754452296612
+  },
+  {
+    "axis": "cluster_loso",
+    "family": "RF",
+    "crop": "rice",
+    "contrast": "P-S",
+    "seasons": 14,
+    "adverse_rmse": 7,
+    "adverse_mae": 7,
+    "median_relative_percent": 3.30267194021871,
+    "min_relative_percent": -28.471019435033686,
+    "max_relative_percent": 55.31414090351336,
+    "worst_absolute_rmse": [
+      {
+        "site_id": "KR-HPK",
+        "year": 2018,
+        "n": 139,
+        "delta_rmse": 1.3003782510977162,
+        "relative_percent": 55.31414090351336,
+        "rmse_ref": 2.3508965878472505,
+        "rmse_arm": 3.6512748389449667
+      },
+      {
+        "site_id": "KR-CmF",
+        "year": 2014,
+        "n": 123,
+        "delta_rmse": 0.5535250199355399,
+        "relative_percent": 23.186832314012328,
+        "rmse_ref": 2.3872386380309156,
+        "rmse_arm": 2.9407636579664556
+      },
+      {
+        "site_id": "KR-CmF",
+        "year": 2013,
+        "n": 146,
+        "delta_rmse": 0.5438677531165292,
+        "relative_percent": 22.168116516876136,
+        "rmse_ref": 2.4533782683003036,
+        "rmse_arm": 2.997246021416833
+      }
+    ],
+    "equal_season_delta_rmse": 0.0759854536406194
+  },
+  {
+    "axis": "cluster_loso",
+    "family": "Ridge",
+    "crop": "maize",
+    "contrast": "C-P",
+    "seasons": 15,
+    "adverse_rmse": 8,
+    "adverse_mae": 8,
+    "median_relative_percent": 1.7093723644206582,
+    "min_relative_percent": -23.848782160260505,
+    "max_relative_percent": 64.20961330239983,
+    "worst_absolute_rmse": [
+      {
+        "site_id": "US-Ne1",
+        "year": 2019,
+        "n": 117,
+        "delta_rmse": 1.6301277594891959,
+        "relative_percent": 64.20961330239983,
+        "rmse_ref": 2.5387596586386385,
+        "rmse_arm": 4.168887418127834
+      },
+      {
+        "site_id": "US-Ne1",
+        "year": 2018,
+        "n": 183,
+        "delta_rmse": 1.0652373462089555,
+        "relative_percent": 26.29026830169847,
+        "rmse_ref": 4.051831400062724,
+        "rmse_arm": 5.11706874627168
+      },
+      {
+        "site_id": "US-Ne1",
+        "year": 2013,
+        "n": 167,
+        "delta_rmse": 0.831201620107286,
+        "relative_percent": 23.3241193812346,
+        "rmse_ref": 3.56369990446897,
+        "rmse_arm": 4.394901524576256
+      }
+    ],
+    "equal_season_delta_rmse": 0.058024712176374095
+  },
+  {
+    "axis": "cluster_loso",
+    "family": "Ridge",
+    "crop": "maize",
+    "contrast": "C-S",
+    "seasons": 15,
+    "adverse_rmse": 12,
+    "adverse_mae": 14,
+    "median_relative_percent": 2.6026501784932154,
+    "min_relative_percent": -0.22970491314247,
+    "max_relative_percent": 11.604567984161807,
+    "worst_absolute_rmse": [
+      {
+        "site_id": "US-Ne1",
+        "year": 2012,
+        "n": 156,
+        "delta_rmse": 0.37358790578659384,
+        "relative_percent": 11.604567984161807,
+        "rmse_ref": 3.219317654017584,
+        "rmse_arm": 3.5929055598041777
+      },
+      {
+        "site_id": "US-Ne1",
+        "year": 2013,
+        "n": 167,
+        "delta_rmse": 0.19630631694448297,
+        "relative_percent": 4.675523770132872,
+        "rmse_ref": 4.198595207631773,
+        "rmse_arm": 4.394901524576256
+      },
+      {
+        "site_id": "US-Ne1",
+        "year": 2018,
+        "n": 183,
+        "delta_rmse": 0.19215839858319672,
+        "relative_percent": 3.901764398074503,
+        "rmse_ref": 4.924910347688483,
+        "rmse_arm": 5.11706874627168
+      }
+    ],
+    "equal_season_delta_rmse": 0.10808864145554796
+  },
+  {
+    "axis": "cluster_loso",
+    "family": "Ridge",
+    "crop": "maize",
+    "contrast": "P-S",
+    "seasons": 15,
+    "adverse_rmse": 9,
+    "adverse_mae": 8,
+    "median_relative_percent": 5.86474293669752,
+    "min_relative_percent": -37.517269473410465,
+    "max_relative_percent": 31.127452990459005,
+    "worst_absolute_rmse": [
+      {
+        "site_id": "US-Ne3",
+        "year": 2017,
+        "n": 163,
+        "delta_rmse": 1.1613766315650325,
+        "relative_percent": 31.127452990459005,
+        "rmse_ref": 3.731036496693163,
+        "rmse_arm": 4.8924131282581955
+      },
+      {
+        "site_id": "US-IAC",
+        "year": 2020,
+        "n": 145,
+        "delta_rmse": 1.0574757866849858,
+        "relative_percent": 28.854011146709336,
+        "rmse_ref": 3.664917786675166,
+        "rmse_arm": 4.722393573360152
+      },
+      {
+        "site_id": "US-Ne1",
+        "year": 2015,
+        "n": 146,
+        "delta_rmse": 0.6884603465177448,
+        "relative_percent": 21.858595394908733,
+        "rmse_ref": 3.1496092684807184,
+        "rmse_arm": 3.838069614998463
+      }
+    ],
+    "equal_season_delta_rmse": 0.050063929279173865
+  },
+  {
+    "axis": "cluster_loso",
+    "family": "Ridge",
+    "crop": "rice",
+    "contrast": "C-P",
+    "seasons": 14,
+    "adverse_rmse": 0,
+    "adverse_mae": 0,
+    "median_relative_percent": -26.71230217541315,
+    "min_relative_percent": -38.227256059138206,
+    "max_relative_percent": -7.4857898064334965,
+    "worst_absolute_rmse": [
+      {
+        "site_id": "KR-HPK",
+        "year": 2016,
+        "n": 118,
+        "delta_rmse": -0.1886260495690255,
+        "relative_percent": -7.4857898064334965,
+        "rmse_ref": 2.5197882180303135,
+        "rmse_arm": 2.331162168461288
+      },
+      {
+        "site_id": "KR-CRK",
+        "year": 2016,
+        "n": 142,
+        "delta_rmse": -0.3123092408840038,
+        "relative_percent": -8.036403499722311,
+        "rmse_ref": 3.8861816843168144,
+        "rmse_arm": 3.5738724434328106
+      },
+      {
+        "site_id": "KR-CRK",
+        "year": 2015,
+        "n": 77,
+        "delta_rmse": -0.4452461787616597,
+        "relative_percent": -17.64273629148787,
+        "rmse_ref": 2.5236798385774133,
+        "rmse_arm": 2.0784336598157536
+      }
+    ],
+    "equal_season_delta_rmse": -0.9339466392712953
+  },
+  {
+    "axis": "cluster_loso",
+    "family": "Ridge",
+    "crop": "rice",
+    "contrast": "C-S",
+    "seasons": 14,
+    "adverse_rmse": 2,
+    "adverse_mae": 1,
+    "median_relative_percent": -0.7750539757259145,
+    "min_relative_percent": -2.7988147225753934,
+    "max_relative_percent": 0.45129250088933315,
+    "worst_absolute_rmse": [
+      {
+        "site_id": "KR-CmF",
+        "year": 2013,
+        "n": 146,
+        "delta_rmse": 0.012550771649205927,
+        "relative_percent": 0.45129250088933315,
+        "rmse_ref": 2.781072502749941,
+        "rmse_arm": 2.7936232743991467
+      },
+      {
+        "site_id": "KR-CRK",
+        "year": 2019,
+        "n": 182,
+        "delta_rmse": 0.004973124406778329,
+        "relative_percent": 0.22865952327841832,
+        "rmse_ref": 2.174903688888969,
+        "rmse_arm": 2.1798768132957473
+      },
+      {
+        "site_id": "KR-CmF",
+        "year": 2016,
+        "n": 46,
+        "delta_rmse": -0.0013319049945503814,
+        "relative_percent": -0.044810652557525366,
+        "rmse_ref": 2.9722954666650265,
+        "rmse_arm": 2.970963561670476
+      }
+    ],
+    "equal_season_delta_rmse": -0.019274921030354948
+  },
+  {
+    "axis": "cluster_loso",
+    "family": "Ridge",
+    "crop": "rice",
+    "contrast": "P-S",
+    "seasons": 14,
+    "adverse_rmse": 14,
+    "adverse_mae": 14,
+    "median_relative_percent": 35.869393366910096,
+    "min_relative_percent": 5.066221798847548,
+    "max_relative_percent": 60.58527993888112,
+    "worst_absolute_rmse": [
+      {
+        "site_id": "KR-CmF",
+        "year": 2014,
+        "n": 123,
+        "delta_rmse": 1.552342017705501,
+        "relative_percent": 60.58527993888112,
+        "rmse_ref": 2.5622428736345113,
+        "rmse_arm": 4.114584891340012
+      },
+      {
+        "site_id": "KR-HPK",
+        "year": 2018,
+        "n": 139,
+        "delta_rmse": 1.442964818187224,
+        "relative_percent": 47.87893560595784,
+        "rmse_ref": 3.0137779796584874,
+        "rmse_arm": 4.4567427978457115
+      },
+      {
+        "site_id": "KR-CmF",
+        "year": 2013,
+        "n": 146,
+        "delta_rmse": 1.2680163881122835,
+        "relative_percent": 45.594510278263556,
+        "rmse_ref": 2.781072502749941,
+        "rmse_arm": 4.049088890862224
+      }
+    ],
+    "equal_season_delta_rmse": 0.9146717182409405
+  },
+  {
+    "axis": "year_loyo",
+    "family": "RF",
+    "crop": "maize",
+    "contrast": "C-P",
+    "seasons": 15,
+    "adverse_rmse": 4,
+    "adverse_mae": 4,
+    "median_relative_percent": -3.689291912186743,
+    "min_relative_percent": -16.58496329604492,
+    "max_relative_percent": 41.13010365563572,
+    "worst_absolute_rmse": [
+      {
+        "site_id": "US-Ne1",
+        "year": 2019,
+        "n": 117,
+        "delta_rmse": 0.6792556233624103,
+        "relative_percent": 41.13010365563572,
+        "rmse_ref": 1.6514804558955631,
+        "rmse_arm": 2.3307360792579734
+      },
+      {
+        "site_id": "US-Ne1",
+        "year": 2013,
+        "n": 167,
+        "delta_rmse": 0.5044483249397702,
+        "relative_percent": 17.663963913025093,
+        "rmse_ref": 2.855804775324517,
+        "rmse_arm": 3.3602531002642873
+      },
+      {
+        "site_id": "US-Ne1",
+        "year": 2018,
+        "n": 183,
+        "delta_rmse": 0.16570087047694182,
+        "relative_percent": 5.183365510413229,
+        "rmse_ref": 3.1967815147138254,
+        "rmse_arm": 3.3624823851907673
+      }
+    ],
+    "equal_season_delta_rmse": -0.09372233817160315
+  },
+  {
+    "axis": "year_loyo",
+    "family": "RF",
+    "crop": "maize",
+    "contrast": "C-S",
+    "seasons": 15,
+    "adverse_rmse": 4,
+    "adverse_mae": 6,
+    "median_relative_percent": -0.6010032971659585,
+    "min_relative_percent": -5.392801269196035,
+    "max_relative_percent": 0.9626724050101787,
+    "worst_absolute_rmse": [
+      {
+        "site_id": "US-Ne1",
+        "year": 2018,
+        "n": 183,
+        "delta_rmse": 0.0320610471914895,
+        "relative_percent": 0.9626724050101787,
+        "rmse_ref": 3.3304213379992778,
+        "rmse_arm": 3.3624823851907673
+      },
+      {
+        "site_id": "US-Ne3",
+        "year": 2017,
+        "n": 163,
+        "delta_rmse": 0.030103246331528943,
+        "relative_percent": 0.8618039895494922,
+        "rmse_ref": 3.49305024072418,
+        "rmse_arm": 3.523153487055709
+      },
+      {
+        "site_id": "US-Ne1",
+        "year": 2015,
+        "n": 146,
+        "delta_rmse": 0.02391297243361956,
+        "relative_percent": 0.8462997834033592,
+        "rmse_ref": 2.8255912269591112,
+        "rmse_arm": 2.849504199392731
+      }
+    ],
+    "equal_season_delta_rmse": -0.028703439880842296
+  },
+  {
+    "axis": "year_loyo",
+    "family": "RF",
+    "crop": "maize",
+    "contrast": "P-S",
+    "seasons": 15,
+    "adverse_rmse": 11,
+    "adverse_mae": 10,
+    "median_relative_percent": 1.8155015732606916,
+    "min_relative_percent": -30.178893705565603,
+    "max_relative_percent": 20.915614228540136,
+    "worst_absolute_rmse": [
+      {
+        "site_id": "US-Ne3",
+        "year": 2017,
+        "n": 163,
+        "delta_rmse": 0.7305929131589619,
+        "relative_percent": 20.915614228540136,
+        "rmse_ref": 3.49305024072418,
+        "rmse_arm": 4.223643153883142
+      },
+      {
+        "site_id": "US-IAC",
+        "year": 2020,
+        "n": 145,
+        "delta_rmse": 0.41353272645117567,
+        "relative_percent": 11.946752743706067,
+        "rmse_ref": 3.4614655155480447,
+        "rmse_arm": 3.8749982419992204
+      },
+      {
+        "site_id": "US-Ne3",
+        "year": 2019,
+        "n": 174,
+        "delta_rmse": 0.4126852642289429,
+        "relative_percent": 13.621391423249761,
+        "rmse_ref": 3.0296850843339587,
+        "rmse_arm": 3.4423703485629016
+      }
+    ],
+    "equal_season_delta_rmse": 0.06501889829076085
+  },
+  {
+    "axis": "year_loyo",
+    "family": "RF",
+    "crop": "rice",
+    "contrast": "C-P",
+    "seasons": 14,
+    "adverse_rmse": 3,
+    "adverse_mae": 3,
+    "median_relative_percent": -10.715359696502386,
+    "min_relative_percent": -35.9142990663664,
+    "max_relative_percent": 32.12196708846875,
+    "worst_absolute_rmse": [
+      {
+        "site_id": "KR-HPK",
+        "year": 2016,
+        "n": 118,
+        "delta_rmse": 0.6536359968454328,
+        "relative_percent": 32.12196708846875,
+        "rmse_ref": 2.034856691824696,
+        "rmse_arm": 2.688492688670129
+      },
+      {
+        "site_id": "KR-CRK",
+        "year": 2016,
+        "n": 142,
+        "delta_rmse": 0.24191805525934917,
+        "relative_percent": 8.859497890195932,
+        "rmse_ref": 2.730606838645562,
+        "rmse_arm": 2.9725248939049114
+      },
+      {
+        "site_id": "KR-CRK",
+        "year": 2017,
+        "n": 176,
+        "delta_rmse": 0.12642246583769134,
+        "relative_percent": 7.336836912775935,
+        "rmse_ref": 1.7231194769717004,
+        "rmse_arm": 1.8495419428093918
+      }
+    ],
+    "equal_season_delta_rmse": -0.24976635420369717
+  },
+  {
+    "axis": "year_loyo",
+    "family": "RF",
+    "crop": "rice",
+    "contrast": "C-S",
+    "seasons": 14,
+    "adverse_rmse": 7,
+    "adverse_mae": 7,
+    "median_relative_percent": -0.3576424999155836,
+    "min_relative_percent": -5.969277550469265,
+    "max_relative_percent": 6.180550463181955,
+    "worst_absolute_rmse": [
+      {
+        "site_id": "KR-CRK",
+        "year": 2020,
+        "n": 152,
+        "delta_rmse": 0.09386972388528858,
+        "relative_percent": 6.180550463181955,
+        "rmse_ref": 1.5187922895295225,
+        "rmse_arm": 1.612662013414811
+      },
+      {
+        "site_id": "KR-CmF",
+        "year": 2015,
+        "n": 153,
+        "delta_rmse": 0.08506577375831226,
+        "relative_percent": 4.715971209094305,
+        "rmse_ref": 1.8037805997261165,
+        "rmse_arm": 1.8888463734844287
+      },
+      {
+        "site_id": "KR-HPK",
+        "year": 2018,
+        "n": 139,
+        "delta_rmse": 0.061638865102289664,
+        "relative_percent": 2.6744130060448734,
+        "rmse_ref": 2.3047623894652682,
+        "rmse_arm": 2.366401254567558
+      }
+    ],
+    "equal_season_delta_rmse": -0.010334464373410679
+  },
+  {
+    "axis": "year_loyo",
+    "family": "RF",
+    "crop": "rice",
+    "contrast": "P-S",
+    "seasons": 14,
+    "adverse_rmse": 10,
+    "adverse_mae": 10,
+    "median_relative_percent": 14.223994575334741,
+    "min_relative_percent": -28.31289621812052,
+    "max_relative_percent": 60.214231115882285,
+    "worst_absolute_rmse": [
+      {
+        "site_id": "KR-HPK",
+        "year": 2018,
+        "n": 139,
+        "delta_rmse": 1.3877949518645476,
+        "relative_percent": 60.214231115882285,
+        "rmse_ref": 2.3047623894652682,
+        "rmse_arm": 3.692557341329816
+      },
+      {
+        "site_id": "KR-CmF",
+        "year": 2013,
+        "n": 146,
+        "delta_rmse": 0.6832122117138262,
+        "relative_percent": 33.93697250534149,
+        "rmse_ref": 2.0131796129023956,
+        "rmse_arm": 2.6963918246162217
+      },
+      {
+        "site_id": "KR-CmF",
+        "year": 2016,
+        "n": 46,
+        "delta_rmse": 0.5873908313522906,
+        "relative_percent": 25.471453058537197,
+        "rmse_ref": 2.306075079432567,
+        "rmse_arm": 2.8934659107848577
+      }
+    ],
+    "equal_season_delta_rmse": 0.23943188983028652
+  },
+  {
+    "axis": "year_loyo",
+    "family": "Ridge",
+    "crop": "maize",
+    "contrast": "C-P",
+    "seasons": 15,
+    "adverse_rmse": 4,
+    "adverse_mae": 4,
+    "median_relative_percent": -11.205329080195348,
+    "min_relative_percent": -24.95070095349735,
+    "max_relative_percent": 31.452459250224862,
+    "worst_absolute_rmse": [
+      {
+        "site_id": "US-Ne1",
+        "year": 2019,
+        "n": 117,
+        "delta_rmse": 0.8006302372464673,
+        "relative_percent": 31.452459250224862,
+        "rmse_ref": 2.5455250760423236,
+        "rmse_arm": 3.346155313288791
+      },
+      {
+        "site_id": "US-Ne1",
+        "year": 2018,
+        "n": 183,
+        "delta_rmse": 0.2776678358720801,
+        "relative_percent": 7.172568497369114,
+        "rmse_ref": 3.8712469037267265,
+        "rmse_arm": 4.148914739598807
+      },
+      {
+        "site_id": "US-Ne1",
+        "year": 2014,
+        "n": 175,
+        "delta_rmse": 0.15044546203729414,
+        "relative_percent": 3.935194593916247,
+        "rmse_ref": 3.8230755416741116,
+        "rmse_arm": 3.9735210037114057
+      }
+    ],
+    "equal_season_delta_rmse": -0.37049827772775573
+  },
+  {
+    "axis": "year_loyo",
+    "family": "Ridge",
+    "crop": "maize",
+    "contrast": "C-S",
+    "seasons": 15,
+    "adverse_rmse": 4,
+    "adverse_mae": 7,
+    "median_relative_percent": -0.27255682025065786,
+    "min_relative_percent": -0.7521466218799566,
+    "max_relative_percent": 0.33597247929679774,
+    "worst_absolute_rmse": [
+      {
+        "site_id": "US-Ne1",
+        "year": 2020,
+        "n": 181,
+        "delta_rmse": 0.013569395567413878,
+        "relative_percent": 0.33597247929679774,
+        "rmse_ref": 4.038841394335237,
+        "rmse_arm": 4.052410789902651
+      },
+      {
+        "site_id": "US-Ne1",
+        "year": 2014,
+        "n": 175,
+        "delta_rmse": 0.007447630031819141,
+        "relative_percent": 0.1877834656626609,
+        "rmse_ref": 3.9660733736795866,
+        "rmse_arm": 3.9735210037114057
+      },
+      {
+        "site_id": "US-Ne3",
+        "year": 2013,
+        "n": 157,
+        "delta_rmse": 0.007330134164760693,
+        "relative_percent": 0.21893018252097107,
+        "rmse_ref": 3.3481606237908745,
+        "rmse_arm": 3.3554907579556352
+      }
+    ],
+    "equal_season_delta_rmse": -0.005447037244290639
+  },
+  {
+    "axis": "year_loyo",
+    "family": "Ridge",
+    "crop": "maize",
+    "contrast": "P-S",
+    "seasons": 15,
+    "adverse_rmse": 11,
+    "adverse_mae": 11,
+    "median_relative_percent": 12.865928939625437,
+    "min_relative_percent": -24.499051638738912,
+    "max_relative_percent": 32.86631836118712,
+    "worst_absolute_rmse": [
+      {
+        "site_id": "US-IAC",
+        "year": 2020,
+        "n": 145,
+        "delta_rmse": 1.0515969718448903,
+        "relative_percent": 28.566046472570193,
+        "rmse_ref": 3.68128285744637,
+        "rmse_arm": 4.73287982929126
+      },
+      {
+        "site_id": "US-Ne3",
+        "year": 2017,
+        "n": 163,
+        "delta_rmse": 1.0105328890381804,
+        "relative_percent": 24.626498083220703,
+        "rmse_ref": 4.103437222877857,
+        "rmse_arm": 5.1139701119160375
+      },
+      {
+        "site_id": "US-Ne1",
+        "year": 2015,
+        "n": 146,
+        "delta_rmse": 0.97089803552121,
+        "relative_percent": 32.86631836118712,
+        "rmse_ref": 2.9540821239892026,
+        "rmse_arm": 3.9249801595104126
+      }
+    ],
+    "equal_season_delta_rmse": 0.36505124048346516
+  },
+  {
+    "axis": "year_loyo",
+    "family": "Ridge",
+    "crop": "rice",
+    "contrast": "C-P",
+    "seasons": 14,
+    "adverse_rmse": 1,
+    "adverse_mae": 1,
+    "median_relative_percent": -34.04786938107975,
+    "min_relative_percent": -48.333455172464966,
+    "max_relative_percent": 20.74648441601592,
+    "worst_absolute_rmse": [
+      {
+        "site_id": "KR-HPK",
+        "year": 2016,
+        "n": 118,
+        "delta_rmse": 0.46373405423172454,
+        "relative_percent": 20.74648441601592,
+        "rmse_ref": 2.23524161941254,
+        "rmse_arm": 2.6989756736442647
+      },
+      {
+        "site_id": "KR-CRK",
+        "year": 2016,
+        "n": 142,
+        "delta_rmse": -0.041490036603574865,
+        "relative_percent": -1.337452978009268,
+        "rmse_ref": 3.102167873245952,
+        "rmse_arm": 3.0606778366423772
+      },
+      {
+        "site_id": "KR-CRK",
+        "year": 2015,
+        "n": 77,
+        "delta_rmse": -0.46692477088544937,
+        "relative_percent": -23.858298525071643,
+        "rmse_ref": 1.957074895323229,
+        "rmse_arm": 1.4901501244377797
+      }
+    ],
+    "equal_season_delta_rmse": -0.9103926397725016
+  },
+  {
+    "axis": "year_loyo",
+    "family": "Ridge",
+    "crop": "rice",
+    "contrast": "C-S",
+    "seasons": 14,
+    "adverse_rmse": 6,
+    "adverse_mae": 6,
+    "median_relative_percent": -0.035065175088005995,
+    "min_relative_percent": -2.3175268011164762,
+    "max_relative_percent": 0.8531227351548765,
+    "worst_absolute_rmse": [
+      {
+        "site_id": "KR-CmF",
+        "year": 2013,
+        "n": 146,
+        "delta_rmse": 0.01902482529075966,
+        "relative_percent": 0.8531227351548765,
+        "rmse_ref": 2.2300220714790653,
+        "rmse_arm": 2.249046896769825
+      },
+      {
+        "site_id": "KR-CmF",
+        "year": 2016,
+        "n": 46,
+        "delta_rmse": 0.0043975967084977086,
+        "relative_percent": 0.2023895607036863,
+        "rmse_ref": 2.1728377161390604,
+        "rmse_arm": 2.177235312847558
+      },
+      {
+        "site_id": "KR-CRK",
+        "year": 2020,
+        "n": 152,
+        "delta_rmse": 0.0019486302396245492,
+        "relative_percent": 0.09505114929702074,
+        "rmse_ref": 2.0500859316653046,
+        "rmse_arm": 2.052034561904929
+      }
+    ],
+    "equal_season_delta_rmse": -0.008612110671026312
+  },
+  {
+    "axis": "year_loyo",
+    "family": "Ridge",
+    "crop": "rice",
+    "contrast": "P-S",
+    "seasons": 14,
+    "adverse_rmse": 13,
+    "adverse_mae": 13,
+    "median_relative_percent": 51.38886957860383,
+    "min_relative_percent": -19.101186530341053,
+    "max_relative_percent": 93.20910078544738,
+    "worst_absolute_rmse": [
+      {
+        "site_id": "KR-CmF",
+        "year": 2014,
+        "n": 123,
+        "delta_rmse": 1.7444133925473495,
+        "relative_percent": 93.20910078544738,
+        "rmse_ref": 1.8715054408289098,
+        "rmse_arm": 3.6159188333762593
+      },
+      {
+        "site_id": "KR-CmF",
+        "year": 2013,
+        "n": 146,
+        "delta_rmse": 1.5414994864301352,
+        "relative_percent": 69.12485334316597,
+        "rmse_ref": 2.2300220714790653,
+        "rmse_arm": 3.7715215579092005
+      },
+      {
+        "site_id": "KR-HPK",
+        "year": 2018,
+        "n": 139,
+        "delta_rmse": 1.462163112851988,
+        "relative_percent": 55.26162896468414,
+        "rmse_ref": 2.6458921683007346,
+        "rmse_arm": 4.108055281152723
+      }
+    ],
+    "equal_season_delta_rmse": 0.9017805291014757
+  }
+]

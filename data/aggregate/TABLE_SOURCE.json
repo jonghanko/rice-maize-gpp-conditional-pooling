@@ -1,0 +1,224 @@
+{
+  "Table_1": {
+    "caption": "Table 1. Fixed model recipes and evaluation design. All comparisons use the same frozen target-specific cases and outer membership.",
+    "headers": [
+      "Arm",
+      "Ridge",
+      "Random forest",
+      "Training weights"
+    ],
+    "rows": [
+      [
+        "S: crop-specific",
+        "Separate 8-input models; alpha 10",
+        "Separate 8-input models; 200 trees",
+        "Unit weights within each crop"
+      ],
+      [
+        "P: unconditioned pooling",
+        "One 8-input model; alpha 10",
+        "One 8-input model; 200 trees",
+        "n / (2 n_crop)"
+      ],
+      [
+        "C: crop-conditioned",
+        "17 columns: scaled 8, crop dummy, 8 interactions",
+        "9 columns: 8 physical inputs + crop dummy",
+        "n / (2 n_crop)"
+      ]
+    ],
+    "note": "Ridge uses training-only (weighted for P/C) population scaling, solver svd and an unpenalized intercept. RF: minimum leaf 5, all features per split, bootstrap, seed 42, one estimator thread. No search or refitting after score inspection. Six cluster and nine year folds; minimum 300 training cases per crop. GPP only: 4,357 days; 120 fitted estimators. ET and German data excluded."
+  },
+  "Table_2": {
+    "caption": "Table 2. Within-crop equal-region RMSE and changes relative to crop-specific fitting.",
+    "headers": [
+      "Axis",
+      "Model",
+      "Crop",
+      "S",
+      "P",
+      "C",
+      "P\u2212S (%)",
+      "C\u2212S (%)"
+    ],
+    "rows": [
+      [
+        "LOSO",
+        "Ridge",
+        "rice",
+        "2.7435",
+        "3.6906",
+        "2.7222",
+        "+34.52",
+        "-0.77"
+      ],
+      [
+        "LOSO",
+        "Ridge",
+        "maize",
+        "3.9323",
+        "4.3648",
+        "3.9770",
+        "+11.00",
+        "+1.14"
+      ],
+      [
+        "LOSO",
+        "RF",
+        "rice",
+        "2.4281",
+        "2.6209",
+        "2.4022",
+        "+7.94",
+        "-1.07"
+      ],
+      [
+        "LOSO",
+        "RF",
+        "maize",
+        "3.5550",
+        "3.6767",
+        "3.5067",
+        "+3.43",
+        "-1.36"
+      ],
+      [
+        "LOYO",
+        "Ridge",
+        "rice",
+        "2.3068",
+        "3.2279",
+        "2.2951",
+        "+39.93",
+        "-0.51"
+      ],
+      [
+        "LOYO",
+        "Ridge",
+        "maize",
+        "3.7956",
+        "4.3705",
+        "3.7918",
+        "+15.15",
+        "-0.10"
+      ],
+      [
+        "LOYO",
+        "RF",
+        "rice",
+        "2.0627",
+        "2.3484",
+        "2.0490",
+        "+13.85",
+        "-0.66"
+      ],
+      [
+        "LOYO",
+        "RF",
+        "maize",
+        "3.3327",
+        "3.5587",
+        "3.3038",
+        "+6.78",
+        "-0.87"
+      ]
+    ],
+    "note": "RMSE units: g C m\u22122 d\u22121. Regional OOF RMSEs are averaged equally; both axes use this aggregation. Positive percentages indicate deterioration. Neither rows nor folds are independent replicates."
+  },
+  "Table_3": {
+    "caption": "Table 3. Counts of site-seasons with adverse errors under each pooling comparison.",
+    "headers": [
+      "Axis",
+      "Model",
+      "Crop",
+      "Total",
+      "P\u2212S RMSE",
+      "C\u2212S RMSE",
+      "C\u2212P RMSE",
+      "C\u2212S MAE"
+    ],
+    "rows": [
+      [
+        "LOSO",
+        "Ridge",
+        "rice",
+        "14",
+        "14",
+        "2",
+        "0",
+        "1"
+      ],
+      [
+        "LOSO",
+        "Ridge",
+        "maize",
+        "15",
+        "9",
+        "12",
+        "8",
+        "14"
+      ],
+      [
+        "LOSO",
+        "RF",
+        "rice",
+        "14",
+        "7",
+        "5",
+        "6",
+        "3"
+      ],
+      [
+        "LOSO",
+        "RF",
+        "maize",
+        "15",
+        "7",
+        "4",
+        "9",
+        "3"
+      ],
+      [
+        "LOYO",
+        "Ridge",
+        "rice",
+        "14",
+        "13",
+        "6",
+        "1",
+        "6"
+      ],
+      [
+        "LOYO",
+        "Ridge",
+        "maize",
+        "15",
+        "11",
+        "4",
+        "4",
+        "7"
+      ],
+      [
+        "LOYO",
+        "RF",
+        "rice",
+        "14",
+        "10",
+        "7",
+        "3",
+        "7"
+      ],
+      [
+        "LOYO",
+        "RF",
+        "maize",
+        "15",
+        "11",
+        "4",
+        "4",
+        "6"
+      ]
+    ],
+    "note": "An adverse count means strictly greater error before rounding, with no magnitude or significance threshold. The three contrast columns have different comparators. All site-year subsets are retained; these are post-hoc descriptive counts."
+  }
+}

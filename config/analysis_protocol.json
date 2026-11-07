@@ -1,0 +1,69 @@
+{
+  "features": [
+    "NDVI_modis",
+    "EA_kPa_agera5",
+    "WS_ms_agera5",
+    "P_mm_agera5",
+    "TA_max_C_agera5",
+    "TA_min_C_agera5",
+    "SW_IN_MJ_m2_d_agera5",
+    "VPD_kPa_agera5"
+  ],
+  "families": {
+    "Ridge": {
+      "alpha": 10,
+      "solver": "svd",
+      "fit_intercept": true
+    },
+    "RF": {
+      "n_estimators": 200,
+      "min_samples_leaf": 5,
+      "max_features": 1.0,
+      "bootstrap": true,
+      "random_state": 42,
+      "n_jobs": 1
+    }
+  },
+  "pool_weights": "n/(2*n_crop), separate crop unit weights",
+  "ridge_scaling": "training weighted population mean/variance; constant scale=1; crop dummy not scaled",
+  "C_ridge": "scaled8 + maize_dummy + dummy_times_scaled8 (17 columns)",
+  "C_RF": "raw8 + maize_dummy (9 columns)",
+  "python": "3.11.13 (main, Jul 11 2025, 22:43:55) [Clang 20.1.4 ]",
+  "sklearn": "1.9.0",
+  "pandas": "2.3.3",
+  "numpy": "2.4.6",
+  "scope": "Retrospective Korean rice / US maize GPP pooling with registered-point inputs and calendar-screened cases",
+  "arms": {
+    "S": "crop-specific",
+    "P": "unconditioned pooling",
+    "C": "crop-conditioned pooling"
+  },
+  "validation_axes": [
+    "cluster_loso",
+    "year_loyo"
+  ],
+  "primary_estimand": "Equal-crop mean relative change in within-crop equal-region RMSE, Ridge cluster_loso C-S",
+  "cohort": {
+    "years": [
+      2012,
+      2020
+    ],
+    "site_days": 4357,
+    "rice_days": 1912,
+    "maize_days": 2445,
+    "rice_site_years": 14,
+    "maize_site_years": 15
+  },
+  "historical_execution": {
+    "estimators": 120,
+    "repeated_oof_records": 52284,
+    "source_protocol_sha256": "a2266fb1b0e0057c488278531efb68fabceec8d58285034eca1ec83eda245c46"
+  },
+  "local_release_preparation": {
+    "new_fits": 0,
+    "new_predictions": 0,
+    "model_replays": 0
+  },
+  "ET_training_hold": true,
+  "Germany_training_hold": true
+}

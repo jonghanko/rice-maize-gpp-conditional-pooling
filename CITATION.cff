@@ -1,0 +1,28 @@
+cff-version: 1.2.0
+message: "Cite this software version and companion aggregate data DOI 10.5281/zenodo.24029126. The code/data DOIs were reserved at package preparation; publication was not yet confirmed in this snapshot."
+type: software
+title: "Rice–Maize GPP Conditional Pooling Analysis Code"
+version: 1.0.0
+doi: "10.5281/zenodo.24029095"
+abstract: >-
+  H2 aggregate regeneration code for the retrospective comparison of crop-specific,
+  unconditioned pooled and crop-conditioned pooled daily GPP models in Korean rice
+  and US maize. The package regenerates reported tables and figures from archived
+  aggregate results. Source and archive identifiers are documented separately.
+authors:
+  - family-names: Ko
+    given-names: Jonghan
+    affiliation: "Department of Applied Plant Science, Chonnam National University"
+    orcid: "https://orcid.org/0000-0001-7974-3808"
+license: MIT
+keywords:
+  - gross primary productivity
+  - rice
+  - maize
+  - MODIS
+  - AgERA5
+  - pooled learning
+  - negative transfer
+  - spatial validation
+url: "https://github.com/jonghanko/rice-maize-gpp-conditional-pooling"
+repository-code: "https://github.com/jonghanko/rice-maize-gpp-conditional-pooling"

@@ -1,0 +1,25 @@
+[build-system]
+requires = ["setuptools>=77.0.3"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "rice-maize-gpp-conditional-pooling"
+version = "1.0.0"
+description = "Regenerate rice–maize GPP benchmark tables and figures from archived aggregate results"
+readme = "README.md"
+requires-python = ">=3.11"
+license = "MIT"
+authors = [{name = "Jonghan Ko", email = "jonghan.ko@jnu.ac.kr"}]
+dependencies = []
+
+[project.optional-dependencies]
+render = ["numpy==2.4.6", "matplotlib==3.11.1", "Pillow==12.2.0"]
+
+[project.scripts]
+h2-gpp = "h2_gpp.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.setuptools.package-data]
+h2_gpp = ["*.txt"]

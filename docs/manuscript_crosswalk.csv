@@ -1,0 +1,7 @@
+output,aggregate_source,quantity,approved_version
+Table_1_v0_2,config/analysis_protocol.json,frozen_model_recipes_and_design,Table_1_v0_2
+Table_2_v0_2,SCORES.json,macro_region_rmse_and_crop_contrasts,Table_2_v0_2
+Table_3_v0_2,SEASON_SUMMARY.json,adverse_season_counts,Table_3_v0_2
+Supplementary_Table_S1_v0_1,ALL_CONTRASTS.json,116_site_season_C-S_records,Supplementary_Table_S1_v0_1
+Figure_1,FIGURE_SOURCE.json,16_crop_macro_contrasts,Frontiers_180mm_final
+Figure_2,FIGURE_SOURCE.json,116_site_season_C-S_cells,Frontiers_180mm_final

@@ -1,0 +1,190 @@
+[
+  {
+    "family": "RF",
+    "crop": "maize",
+    "contrast": "C-P",
+    "seasons": 15,
+    "worse_both_axes": 4,
+    "worse_one_axis_only": 5,
+    "worse_neither": 6,
+    "both_keys": [
+      "US-Ne1:2013",
+      "US-Ne1:2017",
+      "US-Ne1:2018",
+      "US-Ne1:2019"
+    ]
+  },
+  {
+    "family": "RF",
+    "crop": "maize",
+    "contrast": "C-S",
+    "seasons": 15,
+    "worse_both_axes": 1,
+    "worse_one_axis_only": 6,
+    "worse_neither": 8,
+    "both_keys": [
+      "US-Ne3:2017"
+    ]
+  },
+  {
+    "family": "RF",
+    "crop": "maize",
+    "contrast": "P-S",
+    "seasons": 15,
+    "worse_both_axes": 7,
+    "worse_one_axis_only": 4,
+    "worse_neither": 4,
+    "both_keys": [
+      "US-IAC:2020",
+      "US-Ne1:2012",
+      "US-Ne3:2013",
+      "US-Ne3:2017",
+      "US-Ne3:2019",
+      "US-Ro1:2013",
+      "US-Ro1:2015"
+    ]
+  },
+  {
+    "family": "RF",
+    "crop": "rice",
+    "contrast": "C-P",
+    "seasons": 14,
+    "worse_both_axes": 3,
+    "worse_one_axis_only": 3,
+    "worse_neither": 8,
+    "both_keys": [
+      "KR-CRK:2016",
+      "KR-CRK:2017",
+      "KR-HPK:2016"
+    ]
+  },
+  {
+    "family": "RF",
+    "crop": "rice",
+    "contrast": "C-S",
+    "seasons": 14,
+    "worse_both_axes": 3,
+    "worse_one_axis_only": 6,
+    "worse_neither": 5,
+    "both_keys": [
+      "KR-CmF:2014",
+      "KR-CmF:2015",
+      "KR-HPK:2018"
+    ]
+  },
+  {
+    "family": "RF",
+    "crop": "rice",
+    "contrast": "P-S",
+    "seasons": 14,
+    "worse_both_axes": 7,
+    "worse_one_axis_only": 3,
+    "worse_neither": 4,
+    "both_keys": [
+      "KR-CRK:2019",
+      "KR-CmF:2013",
+      "KR-CmF:2014",
+      "KR-CmF:2015",
+      "KR-CmF:2016",
+      "KR-HPK:2017",
+      "KR-HPK:2018"
+    ]
+  },
+  {
+    "family": "Ridge",
+    "crop": "maize",
+    "contrast": "C-P",
+    "seasons": 15,
+    "worse_both_axes": 4,
+    "worse_one_axis_only": 4,
+    "worse_neither": 7,
+    "both_keys": [
+      "US-Ne1:2013",
+      "US-Ne1:2014",
+      "US-Ne1:2018",
+      "US-Ne1:2019"
+    ]
+  },
+  {
+    "family": "Ridge",
+    "crop": "maize",
+    "contrast": "C-S",
+    "seasons": 15,
+    "worse_both_axes": 4,
+    "worse_one_axis_only": 8,
+    "worse_neither": 3,
+    "both_keys": [
+      "US-IAC:2020",
+      "US-Ne1:2014",
+      "US-Ne1:2020",
+      "US-Ne3:2013"
+    ]
+  },
+  {
+    "family": "Ridge",
+    "crop": "maize",
+    "contrast": "P-S",
+    "seasons": 15,
+    "worse_both_axes": 9,
+    "worse_one_axis_only": 2,
+    "worse_neither": 4,
+    "both_keys": [
+      "US-IAC:2020",
+      "US-Ne1:2012",
+      "US-Ne1:2015",
+      "US-Ne1:2016",
+      "US-Ne3:2013",
+      "US-Ne3:2017",
+      "US-Ne3:2019",
+      "US-Ro1:2013",
+      "US-Ro1:2015"
+    ]
+  },
+  {
+    "family": "Ridge",
+    "crop": "rice",
+    "contrast": "C-P",
+    "seasons": 14,
+    "worse_both_axes": 0,
+    "worse_one_axis_only": 1,
+    "worse_neither": 13,
+    "both_keys": []
+  },
+  {
+    "family": "Ridge",
+    "crop": "rice",
+    "contrast": "C-S",
+    "seasons": 14,
+    "worse_both_axes": 2,
+    "worse_one_axis_only": 4,
+    "worse_neither": 8,
+    "both_keys": [
+      "KR-CRK:2019",
+      "KR-CmF:2013"
+    ]
+  },
+  {
+    "family": "Ridge",
+    "crop": "rice",
+    "contrast": "P-S",
+    "seasons": 14,
+    "worse_both_axes": 13,
+    "worse_one_axis_only": 1,
+    "worse_neither": 0,
+    "both_keys": [
+      "KR-CRK:2015",
+      "KR-CRK:2016",
+      "KR-CRK:2017",
+      "KR-CRK:2018",
+      "KR-CRK:2019",
+      "KR-CRK:2020",
+      "KR-CmF:2012",
+      "KR-CmF:2013",
+      "KR-CmF:2014",
+      "KR-CmF:2015",
+      "KR-CmF:2016",
+      "KR-HPK:2017",
+      "KR-HPK:2018"
+    ]
+  }
+]

@@ -1,0 +1,12 @@
+{
+  "version": "1.0.0",
+  "scope": "Public aggregate inputs only",
+  "files": {
+    "ALL_CONTRASTS.json": "bba6d9e9f2d0086efc3417e1d561e72be63207029b7b4031b0800ba068ad3d8b",
+    "CROSS_AXIS_SIGNS.json": "eeaef98c8d7067d607c1eeccc26ba54c4fe5c6028af26e14ea9c14a60acb2eac",
+    "FIGURE_SOURCE.json": "dd8b4fb826d226caed5932b901031abdc02b1223ba076e76bec3f1853c489375",
+    "SCORES.json": "9344256dc4ac606cd9c941470848dfbf1668b067d6ef4a95842e487b1dfaf554",
+    "SEASON_SUMMARY.json": "2af5a1d442b508aa94cb7af8f221fa29ce49dc146db6483fb6302d8550d792f8",
+    "TABLE_SOURCE.json": "8942b9c726ca6a7c470fcb40c6871b67d0ede501b825fd54fdada34866d96825"
+  }
+}

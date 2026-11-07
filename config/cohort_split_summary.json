@@ -1,0 +1,514 @@
+{
+  "rows": 4357,
+  "by_crop": {
+    "maize": 2445,
+    "rice": 1912
+  },
+  "by_calendar": [
+    {
+      "crop": "maize",
+      "calendar_status": "Yang2018_primary_table_complete_window",
+      "n": 498
+    },
+    {
+      "crop": "maize",
+      "calendar_status": "conflicting_sowing_dates_conservative_intersection_not_exact_approval",
+      "n": 157
+    },
+    {
+      "crop": "maize",
+      "calendar_status": "no_verified_exact_bounds",
+      "n": 1191
+    },
+    {
+      "crop": "maize",
+      "calendar_status": "verified_both_bounds",
+      "n": 599
+    },
+    {
+      "crop": "rice",
+      "calendar_status": "legacy_rice_May_Oct_proxy",
+      "n": 1912
+    }
+  ],
+  "us_exact_calendar_rows": 1097,
+  "us_conflict_rows": 157,
+  "coverage": [
+    {
+      "crop": "maize",
+      "site_id": "US-IAC",
+      "year": 2020,
+      "spatial_split_group": "Ames_IA",
+      "calendar_status": "verified_both_bounds",
+      "n": 145
+    },
+    {
+      "crop": "maize",
+      "site_id": "US-Ne1",
+      "year": 2012,
+      "spatial_split_group": "Mead_NE",
+      "calendar_status": "Yang2018_primary_table_complete_window",
+      "n": 156
+    },
+    {
+      "crop": "maize",
+      "site_id": "US-Ne1",
+      "year": 2013,
+      "spatial_split_group": "Mead_NE",
+      "calendar_status": "Yang2018_primary_table_complete_window",
+      "n": 167
+    },
+    {
+      "crop": "maize",
+      "site_id": "US-Ne1",
+      "year": 2014,
+      "spatial_split_group": "Mead_NE",
+      "calendar_status": "Yang2018_primary_table_complete_window",
+      "n": 175
+    },
+    {
+      "crop": "maize",
+      "site_id": "US-Ne1",
+      "year": 2015,
+      "spatial_split_group": "Mead_NE",
+      "calendar_status": "no_verified_exact_bounds",
+      "n": 146
+    },
+    {
+      "crop": "maize",
+      "site_id": "US-Ne1",
+      "year": 2016,
+      "spatial_split_group": "Mead_NE",
+      "calendar_status": "no_verified_exact_bounds",
+      "n": 182
+    },
+    {
+      "crop": "maize",
+      "site_id": "US-Ne1",
+      "year": 2017,
+      "spatial_split_group": "Mead_NE",
+      "calendar_status": "no_verified_exact_bounds",
+      "n": 166
+    },
+    {
+      "crop": "maize",
+      "site_id": "US-Ne1",
+      "year": 2018,
+      "spatial_split_group": "Mead_NE",
+      "calendar_status": "no_verified_exact_bounds",
+      "n": 183
+    },
+    {
+      "crop": "maize",
+      "site_id": "US-Ne1",
+      "year": 2019,
+      "spatial_split_group": "Mead_NE",
+      "calendar_status": "verified_both_bounds",
+      "n": 117
+    },
+    {
+      "crop": "maize",
+      "site_id": "US-Ne1",
+      "year": 2020,
+      "spatial_split_group": "Mead_NE",
+      "calendar_status": "no_verified_exact_bounds",
+      "n": 181
+    },
+    {
+      "crop": "maize",
+      "site_id": "US-Ne3",
+      "year": 2013,
+      "spatial_split_group": "Mead_NE",
+      "calendar_status": "conflicting_sowing_dates_conservative_intersection_not_exact_approval",
+      "n": 157
+    },
+    {
+      "crop": "maize",
+      "site_id": "US-Ne3",
+      "year": 2017,
+      "spatial_split_group": "Mead_NE",
+      "calendar_status": "verified_both_bounds",
+      "n": 163
+    },
+    {
+      "crop": "maize",
+      "site_id": "US-Ne3",
+      "year": 2019,
+      "spatial_split_group": "Mead_NE",
+      "calendar_status": "verified_both_bounds",
+      "n": 174
+    },
+    {
+      "crop": "maize",
+      "site_id": "US-Ro1",
+      "year": 2013,
+      "spatial_split_group": "Rosemount_MN",
+      "calendar_status": "no_verified_exact_bounds",
+      "n": 171
+    },
+    {
+      "crop": "maize",
+      "site_id": "US-Ro1",
+      "year": 2015,
+      "spatial_split_group": "Rosemount_MN",
+      "calendar_status": "no_verified_exact_bounds",
+      "n": 162
+    },
+    {
+      "crop": "rice",
+      "site_id": "KR-CRK",
+      "year": 2015,
+      "spatial_split_group": "KR-CRK",
+      "calendar_status": "legacy_rice_May_Oct_proxy",
+      "n": 77
+    },
+    {
+      "crop": "rice",
+      "site_id": "KR-CRK",
+      "year": 2016,
+      "spatial_split_group": "KR-CRK",
+      "calendar_status": "legacy_rice_May_Oct_proxy",
+      "n": 142
+    },
+    {
+      "crop": "rice",
+      "site_id": "KR-CRK",
+      "year": 2017,
+      "spatial_split_group": "KR-CRK",
+      "calendar_status": "legacy_rice_May_Oct_proxy",
+      "n": 176
+    },
+    {
+      "crop": "rice",
+      "site_id": "KR-CRK",
+      "year": 2018,
+      "spatial_split_group": "KR-CRK",
+      "calendar_status": "legacy_rice_May_Oct_proxy",
+      "n": 183
+    },
+    {
+      "crop": "rice",
+      "site_id": "KR-CRK",
+      "year": 2019,
+      "spatial_split_group": "KR-CRK",
+      "calendar_status": "legacy_rice_May_Oct_proxy",
+      "n": 182
+    },
+    {
+      "crop": "rice",
+      "site_id": "KR-CRK",
+      "year": 2020,
+      "spatial_split_group": "KR-CRK",
+      "calendar_status": "legacy_rice_May_Oct_proxy",
+      "n": 152
+    },
+    {
+      "crop": "rice",
+      "site_id": "KR-CmF",
+      "year": 2012,
+      "spatial_split_group": "CFK",
+      "calendar_status": "legacy_rice_May_Oct_proxy",
+      "n": 130
+    },
+    {
+      "crop": "rice",
+      "site_id": "KR-CmF",
+      "year": 2013,
+      "spatial_split_group": "CFK",
+      "calendar_status": "legacy_rice_May_Oct_proxy",
+      "n": 146
+    },
+    {
+      "crop": "rice",
+      "site_id": "KR-CmF",
+      "year": 2014,
+      "spatial_split_group": "CFK",
+      "calendar_status": "legacy_rice_May_Oct_proxy",
+      "n": 123
+    },
+    {
+      "crop": "rice",
+      "site_id": "KR-CmF",
+      "year": 2015,
+      "spatial_split_group": "CFK",
+      "calendar_status": "legacy_rice_May_Oct_proxy",
+      "n": 153
+    },
+    {
+      "crop": "rice",
+      "site_id": "KR-CmF",
+      "year": 2016,
+      "spatial_split_group": "CFK",
+      "calendar_status": "legacy_rice_May_Oct_proxy",
+      "n": 46
+    },
+    {
+      "crop": "rice",
+      "site_id": "KR-HPK",
+      "year": 2016,
+      "spatial_split_group": "KR-HPK",
+      "calendar_status": "legacy_rice_May_Oct_proxy",
+      "n": 118
+    },
+    {
+      "crop": "rice",
+      "site_id": "KR-HPK",
+      "year": 2017,
+      "spatial_split_group": "KR-HPK",
+      "calendar_status": "legacy_rice_May_Oct_proxy",
+      "n": 145
+    },
+    {
+      "crop": "rice",
+      "site_id": "KR-HPK",
+      "year": 2018,
+      "spatial_split_group": "KR-HPK",
+      "calendar_status": "legacy_rice_May_Oct_proxy",
+      "n": 139
+    }
+  ],
+  "folds": [
+    {
+      "fold_id": "proxy|cluster_loso|Ames_IA",
+      "tier": "proxy",
+      "axis": "cluster_loso",
+      "held": "Ames_IA",
+      "train_by_crop": {
+        "rice": 1912,
+        "maize": 2300
+      },
+      "test_by_crop": {
+        "rice": 0,
+        "maize": 145
+      },
+      "numerically_supported": true,
+      "reason": null
+    },
+    {
+      "fold_id": "proxy|cluster_loso|CFK",
+      "tier": "proxy",
+      "axis": "cluster_loso",
+      "held": "CFK",
+      "train_by_crop": {
+        "rice": 1314,
+        "maize": 2445
+      },
+      "test_by_crop": {
+        "rice": 598,
+        "maize": 0
+      },
+      "numerically_supported": true,
+      "reason": null
+    },
+    {
+      "fold_id": "proxy|cluster_loso|KR-CRK",
+      "tier": "proxy",
+      "axis": "cluster_loso",
+      "held": "KR-CRK",
+      "train_by_crop": {
+        "rice": 1000,
+        "maize": 2445
+      },
+      "test_by_crop": {
+        "rice": 912,
+        "maize": 0
+      },
+      "numerically_supported": true,
+      "reason": null
+    },
+    {
+      "fold_id": "proxy|cluster_loso|KR-HPK",
+      "tier": "proxy",
+      "axis": "cluster_loso",
+      "held": "KR-HPK",
+      "train_by_crop": {
+        "rice": 1510,
+        "maize": 2445
+      },
+      "test_by_crop": {
+        "rice": 402,
+        "maize": 0
+      },
+      "numerically_supported": true,
+      "reason": null
+    },
+    {
+      "fold_id": "proxy|cluster_loso|Mead_NE",
+      "tier": "proxy",
+      "axis": "cluster_loso",
+      "held": "Mead_NE",
+      "train_by_crop": {
+        "rice": 1912,
+        "maize": 478
+      },
+      "test_by_crop": {
+        "rice": 0,
+        "maize": 1967
+      },
+      "numerically_supported": true,
+      "reason": null
+    },
+    {
+      "fold_id": "proxy|cluster_loso|Rosemount_MN",
+      "tier": "proxy",
+      "axis": "cluster_loso",
+      "held": "Rosemount_MN",
+      "train_by_crop": {
+        "rice": 1912,
+        "maize": 2112
+      },
+      "test_by_crop": {
+        "rice": 0,
+        "maize": 333
+      },
+      "numerically_supported": true,
+      "reason": null
+    },
+    {
+      "fold_id": "proxy|year_loyo|2012",
+      "tier": "proxy",
+      "axis": "year_loyo",
+      "held": "2012",
+      "train_by_crop": {
+        "rice": 1782,
+        "maize": 2289
+      },
+      "test_by_crop": {
+        "rice": 130,
+        "maize": 156
+      },
+      "numerically_supported": true,
+      "reason": null
+    },
+    {
+      "fold_id": "proxy|year_loyo|2013",
+      "tier": "proxy",
+      "axis": "year_loyo",
+      "held": "2013",
+      "train_by_crop": {
+        "rice": 1766,
+        "maize": 1950
+      },
+      "test_by_crop": {
+        "rice": 146,
+        "maize": 495
+      },
+      "numerically_supported": true,
+      "reason": null
+    },
+    {
+      "fold_id": "proxy|year_loyo|2014",
+      "tier": "proxy",
+      "axis": "year_loyo",
+      "held": "2014",
+      "train_by_crop": {
+        "rice": 1789,
+        "maize": 2270
+      },
+      "test_by_crop": {
+        "rice": 123,
+        "maize": 175
+      },
+      "numerically_supported": true,
+      "reason": null
+    },
+    {
+      "fold_id": "proxy|year_loyo|2015",
+      "tier": "proxy",
+      "axis": "year_loyo",
+      "held": "2015",
+      "train_by_crop": {
+        "rice": 1682,
+        "maize": 2137
+      },
+      "test_by_crop": {
+        "rice": 230,
+        "maize": 308
+      },
+      "numerically_supported": true,
+      "reason": null
+    },
+    {
+      "fold_id": "proxy|year_loyo|2016",
+      "tier": "proxy",
+      "axis": "year_loyo",
+      "held": "2016",
+      "train_by_crop": {
+        "rice": 1606,
+        "maize": 2263
+      },
+      "test_by_crop": {
+        "rice": 306,
+        "maize": 182
+      },
+      "numerically_supported": true,
+      "reason": null
+    },
+    {
+      "fold_id": "proxy|year_loyo|2017",
+      "tier": "proxy",
+      "axis": "year_loyo",
+      "held": "2017",
+      "train_by_crop": {
+        "rice": 1591,
+        "maize": 2116
+      },
+      "test_by_crop": {
+        "rice": 321,
+        "maize": 329
+      },
+      "numerically_supported": true,
+      "reason": null
+    },
+    {
+      "fold_id": "proxy|year_loyo|2018",
+      "tier": "proxy",
+      "axis": "year_loyo",
+      "held": "2018",
+      "train_by_crop": {
+        "rice": 1590,
+        "maize": 2262
+      },
+      "test_by_crop": {
+        "rice": 322,
+        "maize": 183
+      },
+      "numerically_supported": true,
+      "reason": null
+    },
+    {
+      "fold_id": "proxy|year_loyo|2019",
+      "tier": "proxy",
+      "axis": "year_loyo",
+      "held": "2019",
+      "train_by_crop": {
+        "rice": 1730,
+        "maize": 2154
+      },
+      "test_by_crop": {
+        "rice": 182,
+        "maize": 291
+      },
+      "numerically_supported": true,
+      "reason": null
+    },
+    {
+      "fold_id": "proxy|year_loyo|2020",
+      "tier": "proxy",
+      "axis": "year_loyo",
+      "held": "2020",
+      "train_by_crop": {
+        "rice": 1760,
+        "maize": 2119
+      },
+      "test_by_crop": {
+        "rice": 152,
+        "maize": 326
+      },
+      "numerically_supported": true,
+      "reason": null
+    }
+  ],
+  "source_cohort_sha256": "46671f8e2e106de56d78bf08d38c15b1c43674b98c1ecd1b5d5cb2fad17ffca6",
+  "source_membership_sha256": "5584bc9943b0d6c01998e7d17c2c5cf7c1f0e9e6c0894804913abdcbe4442467"
+}

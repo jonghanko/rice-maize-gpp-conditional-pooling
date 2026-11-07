@@ -1,0 +1,45 @@
+{
+  "title": "Rice–Maize GPP Conditional Pooling Analysis Code",
+  "upload_type": "software",
+  "version": "1.0.0",
+  "description": "<p>Version 1.0.0 of the H2 software for regenerating the reported tables and figures from archived aggregate results in a retrospective comparison of daily gross primary productivity models for Korean rice and US maize.</p><p>The original analysis panel comprised 4,357 unique site-days during 2012–2020, including 1,912 rice and 2,445 maize site-days. The fixed comparison used crop-specific fitting (S), unconditioned pooling (P), and crop-conditioned pooling (C), with Ridge regression and random forests under spatial-cluster and year holdout. The prespecified primary contrast was Ridge C−S under spatial-cluster holdout. Secondary comparisons and post hoc site-season adverse-error summaries retain their respective roles in the released outputs.</p><p>The explicit verify and reproduce commands read the companion aggregate JSON inputs and produce Tables 1–3, Supplementary Table S1, Figures 1–2, captions, and a separate aggregate-regeneration receipt. The software uses portable input/output paths and records the rendering environment and output checksums. Regeneration requires no new model fitting, prediction or saved-model replay.</p><p>The software code is licensed under MIT. Bundled author-generated aggregate material and generated tables/figures are covered by the CC BY 4.0 scope in DATA_LICENSES.md. Dependencies retain their own terms. The companion aggregate-data record provides the matching archived result inputs and outputs. The frozen source-data panel, row-level memberships and OOF predictions, saved estimators and provider-native products remain part of the separately documented analysis archive.</p><p>The observations were previously examined, and crop is confounded with country, climate, management and reference-processing history. Calendar-proxy and footprint uncertainty and the single random-forest seed limit interpretation. The release documents a conditional predictive comparison against retained references.</p><p>This work was supported by Chonnam National University (Grant No. 2026-1417-01) and the Basic Science Research Program through the National Research Foundation of Korea (Grant No. NRF-2021R1A2C2004459). Neither funder was involved in study design, data collection, analysis or interpretation, manuscript preparation, or the decision to submit. The author declares no competing interests.</p><p>The code and data DOIs were reserved for version 1.0.0. This package snapshot was prepared before publication confirmation (RESERVED_PENDING_PUBLICATION; published=false). The intended publication date is 2026-11-07; the actual publication date remains unconfirmed in this snapshot. Software DOI: https://doi.org/10.5281/zenodo.24029095. Aggregate-data DOI: https://doi.org/10.5281/zenodo.24029126. Source repository: https://github.com/jonghanko/rice-maize-gpp-conditional-pooling.</p>",
+  "creators": [
+    {
+      "name": "Ko, Jonghan",
+      "affiliation": "Department of Applied Plant Science, Chonnam National University",
+      "orcid": "0000-0001-7974-3808"
+    }
+  ],
+  "license": "mit",
+  "language": "eng",
+  "keywords": [
+    "gross primary productivity",
+    "rice",
+    "maize",
+    "MODIS",
+    "AgERA5",
+    "pooled learning",
+    "negative transfer",
+    "spatial validation",
+    "aggregate reproducibility"
+  ],
+  "references": [
+    "Vermote, E. (2021). MODIS/Terra Surface Reflectance 8-Day L3 Global 500m SIN Grid V061. NASA LP DAAC. doi:10.5067/MODIS/MOD09A1.061.",
+    "Boogaard, H., Schubert, J., De Wit, A., Lazebnik, J., Hutjes, R., and Van der Grijn, G. (2020). Agrometeorological indicators from 1979 to present derived from reanalysis. AgERA5 version 2.0 used. C3S Climate Data Store. doi:10.24381/cds.6c68c9bb.",
+    "Pastorello, G., et al. (2020). The FLUXNET2015 dataset and the ONEFlux processing pipeline for eddy covariance data. Scientific Data 7, 225. doi:10.1038/s41597-020-0534-3."
+  ],
+  "access_right": "open",
+  "related_identifiers": [
+    {
+      "identifier": "https://doi.org/10.5281/zenodo.24029126",
+      "relation": "requires",
+      "resource_type": "dataset"
+    },
+    {
+      "identifier": "https://github.com/jonghanko/rice-maize-gpp-conditional-pooling",
+      "relation": "isSupplementTo",
+      "resource_type": "software"
+    }
+  ],
+  "doi": "10.5281/zenodo.24029095"
+}

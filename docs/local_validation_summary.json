@@ -1,0 +1,59 @@
+{
+  "status": "PASS",
+  "installed_offline": true,
+  "relocated_path_with_spaces": true,
+  "tables": [
+    {
+      "name": "Table_1_v0_2",
+      "data_rows": 3,
+      "header_and_data_cells": 16,
+      "markdown_exact": true,
+      "csv_cells_exact": true
+    },
+    {
+      "name": "Table_2_v0_2",
+      "data_rows": 8,
+      "header_and_data_cells": 72,
+      "markdown_exact": true,
+      "csv_cells_exact": true
+    },
+    {
+      "name": "Table_3_v0_2",
+      "data_rows": 8,
+      "header_and_data_cells": 72,
+      "markdown_exact": true,
+      "csv_cells_exact": true
+    },
+    {
+      "name": "Supplementary_Table_S1_v0_1",
+      "data_rows": 116,
+      "header_and_data_cells": 1053,
+      "markdown_exact": true,
+      "csv_cells_exact": true
+    }
+  ],
+  "figures": [
+    {
+      "name": "Figure_1.tiff",
+      "sha256": "453e644a4fe30b7144e1bc1fef28ea789acd7fd17c78c21dbbaf4ff5aec9db63",
+      "submission_tiff_byte_identical": true
+    },
+    {
+      "name": "Figure_2.tiff",
+      "sha256": "88b96be065a8312a8f775127799a2b6a082bd5aa0945812673d4cf811f39288c",
+      "submission_tiff_byte_identical": true
+    }
+  ],
+  "final_captions_exact": true,
+  "tampered_input_rejected_before_writes": true,
+  "import_without_new_project_files": true,
+  "receipt_output_collision_rejected_before_writes": true,
+  "existing_output_protected": true,
+  "package_sources_unchanged": true,
+  "model_dependency_or_calls": 0,
+  "new_fits": 0,
+  "new_predictions": 0,
+  "model_replays": 0,
+  "ET_training_hold": true,
+  "Germany_training_hold": true
+}
