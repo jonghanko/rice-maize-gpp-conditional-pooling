@@ -1,15 +1,30 @@
 {
-  "version": "1.0.0",
+  "version": "1.1.0",
+  "record_type": "GitHub release build snapshot",
   "github_repository_url": "https://github.com/jonghanko/rice-maize-gpp-conditional-pooling",
-  "code_doi": "10.5281/zenodo.24029095",
-  "data_doi": "10.5281/zenodo.24029126",
-  "code_record_url": "https://zenodo.org/records/24029095",
-  "data_record_url": "https://zenodo.org/records/24029126",
-  "publication_date": null,
-  "published": false,
-  "status": "RESERVED_PENDING_PUBLICATION",
-  "intended_publication_date": "2026-11-07",
-  "doi_status": "reserved",
-  "snapshot_status": "prepared_for_publication",
-  "record_url_note": "Canonical record URLs are assigned to reserved records; public availability is not yet confirmed in this package snapshot."
+  "intended_release_url": "https://github.com/jonghanko/rice-maize-gpp-conditional-pooling/releases/tag/v1.1.0",
+  "release_status_at_commit_creation": "PREPARED_FOR_AUTHORISED_PUBLICATION",
+  "live_status_source": "Check the actual versioned GitHub release and downloaded asset digests; this file is not a live publication receipt.",
+  "assets": [
+    {
+      "name": "PACKAGE_MANIFEST.json",
+      "bytes": 7999,
+      "sha256": "49564e45b4ed790727b0f6ea8e144e733bb1365fe3b1fc34cab57659477dce2f"
+    },
+    {
+      "name": "rice-maize-gpp-conditional-pooling-v1.1.0.zip",
+      "bytes": 949088,
+      "sha256": "0b516650a3a12a2625fd219dadbc65b4e822e5a2f93881c28e5befdce20157e3"
+    },
+    {
+      "name": "SHA256SUMS.txt",
+      "bytes": 202,
+      "sha256": "bf45b5631c4515fd6e4cc51dc9ff101ff3ce8e80e7da7770c90d7974064ae99b"
+    }
+  ],
+  "new_doi": null,
+  "zenodo_publication": "PAUSED_NOT_PUBLISHED",
+  "historical_reserved_identifier_snapshot": "releases/v1.0.0/snapshot/PUBLICATION_IDENTIFIERS.json",
+  "P066_at_commit_creation": "ACCESS_PENDING_PUBLICATION; final manuscript/form alignment remains separate",
+  "user_authorization": "2026-11-08: Publish the reviewed42files/3assets as GitHubv1.1.0 only; journal submission,Zenodo and additional training holds retained."
 }

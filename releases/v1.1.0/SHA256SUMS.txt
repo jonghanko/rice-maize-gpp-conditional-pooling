@@ -1,0 +1,2 @@
+0b516650a3a12a2625fd219dadbc65b4e822e5a2f93881c28e5befdce20157e3  rice-maize-gpp-conditional-pooling-v1.1.0.zip
+49564e45b4ed790727b0f6ea8e144e733bb1365fe3b1fc34cab57659477dce2f  PACKAGE_MANIFEST.json

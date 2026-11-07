@@ -1,0 +1,219 @@
+{
+  "version": "1.1.0",
+  "published": false,
+  "workflow_snapshot_semantics": {
+    "recorded_at": "2026-11-08 KST, before final author release approval",
+    "interpretation": "Publication, authorisation, holds and P066 workflow fields in this frozen archive record build-time history, not live distribution status or continuing licence restrictions.",
+    "parquet_workflow_fields": "public_release_status is an inherited RC2 preparation-time flag. Its stored values are preserved; it does not describe current availability.",
+    "current_publication_evidence": "Check the actual versioned GitHub release, its immutable status, commit and downloaded asset digest. No current publication is asserted by this offline snapshot.",
+    "build_authorization": "Local preparation only; upload and submission require separate author approval."
+  },
+  "self_hash_policy": "This manifest excludes its own hash; its SHA-256 is recorded outside the archive in SHA256SUMS.txt and the review receipt.",
+  "files": [
+    {
+      "path": "ATTRIBUTION.md",
+      "bytes": 5288,
+      "sha256": "947346ec41a290bd1ce58e4769e8adc091a6c8583e96257fdb776cba4fa6f30f"
+    },
+    {
+      "path": "CHANGELOG.md",
+      "bytes": 1548,
+      "sha256": "1342ae473650008506d31f6f56a16a8738f00d4556a750fc539821d878fc46a8"
+    },
+    {
+      "path": "CITATION.cff",
+      "bytes": 546,
+      "sha256": "f2c428a974dc45c6014ba2f1589c8f77b5b3b410c3ae8b7b55d14b2aedcbc289"
+    },
+    {
+      "path": "LICENSE-CODE.txt",
+      "bytes": 1067,
+      "sha256": "6b320c646728045b3e486e890b2b8deffc4c56329b4d9c8795e5353532f85012"
+    },
+    {
+      "path": "LICENSE-DATA.md",
+      "bytes": 1254,
+      "sha256": "306fd917f65490afde9f8126e8b9a0a7cd980e01680b732962088741cd9bac1a"
+    },
+    {
+      "path": "PACKAGE_STATUS.json",
+      "bytes": 3224,
+      "sha256": "c7f24cbf70ceeaf2356ab299e3e8d0ec51a1f5a5a6dbefa4dfb4fde9882fef88"
+    },
+    {
+      "path": "README.md",
+      "bytes": 6577,
+      "sha256": "f15c0da99d5e04283e28ac23cfcb87e4ba6a07e951227ce2cc149d65d181759b"
+    },
+    {
+      "path": "code/calculate_stored_comparisons.py",
+      "bytes": 3507,
+      "sha256": "c657948e2f604d6065490cbe5d91b02184d11c9b1dd6a4c2abdca4dee2e2f445"
+    },
+    {
+      "path": "code/verify_package.py",
+      "bytes": 8565,
+      "sha256": "fa22adb18f54eafab446d22565e33cf09c762d350f179b90f16fbec4c6046b48"
+    },
+    {
+      "path": "data/case_and_site_season_catalog.parquet",
+      "bytes": 24754,
+      "sha256": "d02c59cb5c0957d933316073718f20ff84a311533a7639029f6cc0029545cabc"
+    },
+    {
+      "path": "data/companion_key_universe.parquet",
+      "bytes": 107677,
+      "sha256": "620732cbe9fec34882ea6dfe0e6ca7b50d57377ade5553161cd6bf7228879549"
+    },
+    {
+      "path": "data/frozen_test_membership.parquet",
+      "bytes": 21049,
+      "sha256": "a5b6915f0f316621d3685b05c09f05699e7efe742c103227af368f70f4f198eb"
+    },
+    {
+      "path": "data/h2_membership_matrix.parquet",
+      "bytes": 25575,
+      "sha256": "44c6d21e71b8480f14d1bc906697a1e00396080bbdcbe6f4701f8f8427e3cbbe"
+    },
+    {
+      "path": "data/matched_reference_links.parquet",
+      "bytes": 97563,
+      "sha256": "551bebd3869f97f5ca37a54fce630b57869431091b43e83623aed632ae266a18"
+    },
+    {
+      "path": "data/planned_Ridge_LOSO_P.parquet",
+      "bytes": 53807,
+      "sha256": "c8f1897259fe8e88275f36e14bdf65bdaf81fbbcfeda52a08b0ecbf83775e2e7"
+    },
+    {
+      "path": "data/primary_Ridge_LOSO_CS.parquet",
+      "bytes": 142382,
+      "sha256": "5b5351138bbd8405b395f41c6b06482f4463f28b4e6fc1d6232113d9b9851779"
+    },
+    {
+      "path": "data/reference_row_mapping.parquet",
+      "bytes": 50763,
+      "sha256": "41d50ab5b693ee59c46f537d1107c5723050ba39934670524f16e470883f9c67"
+    },
+    {
+      "path": "data/secondary_RF_LOSO.parquet",
+      "bytes": 135002,
+      "sha256": "157e8f66601738d33d9a8abb9b279f6269ec6fd377e8e03685999c17d354e334"
+    },
+    {
+      "path": "data/secondary_RF_LOYO.parquet",
+      "bytes": 134921,
+      "sha256": "fe3ef887808c353c744565cdfcfd7b767610649c18f69fc1782713c3d8d01be9"
+    },
+    {
+      "path": "data/secondary_Ridge_LOYO.parquet",
+      "bytes": 135001,
+      "sha256": "ad3350cc246e7903872f1b899fec8f87201f2e999b8192dff423de85f2e26140"
+    },
+    {
+      "path": "metadata/BIBLIOGRAPHIC_PROVENANCE.json",
+      "bytes": 16825,
+      "sha256": "51692d607b6293244ba6560dd93b847313f85f9be7c76a380340c901ad9c61fe"
+    },
+    {
+      "path": "metadata/CLAIM_SCOPE_MAP.json",
+      "bytes": 3188,
+      "sha256": "edf463bba11bc309ed082d094d39bb1540d38a2cbc34ac76cac3117948a86fa8"
+    },
+    {
+      "path": "metadata/COMPANION_SET_CATALOG.json",
+      "bytes": 27300,
+      "sha256": "209a065d98e5fc8a17a5e52b67598d61b96adb42e2cf80af5c77decd50c1e215"
+    },
+    {
+      "path": "metadata/DATA_DICTIONARY.json",
+      "bytes": 30541,
+      "sha256": "83059ec68b4b50f4776f7901290ebf962be3cd5b816d7be99c6ba26bfcd6e885"
+    },
+    {
+      "path": "metadata/DENOMINATOR_AND_FORMULA_CATALOG.json",
+      "bytes": 1711,
+      "sha256": "1c148f8eeb4a2a1eddb7746a1dfc6e12eea0e34d04c87e7c6426154d8e0ed53c"
+    },
+    {
+      "path": "metadata/DONOR_SOURCE_PROVENANCE.json",
+      "bytes": 8087,
+      "sha256": "49be26632119f5c6c16b31da09d2999f1769599422cff4a41e36d06b14801406"
+    },
+    {
+      "path": "metadata/EXPECTED_REUSE_CHECKS.json",
+      "bytes": 63408,
+      "sha256": "146ebe3b6002e7e74bf38f79a6b193da45f6727c694cee5587906d09b9d60d20"
+    },
+    {
+      "path": "metadata/FOLD_CATALOG.json",
+      "bytes": 11073,
+      "sha256": "c854bfc99bb613a2b1ad58a1d73e7ecad2cf8d684daaa7e19537e8b82e00317f"
+    },
+    {
+      "path": "metadata/LICENSE_MAP.json",
+      "bytes": 12323,
+      "sha256": "5febb61c5f2dd0217ea7b3fb2c44afb38d2b165f9cdf0005021f492678cdc7e8"
+    },
+    {
+      "path": "metadata/REFERENCE_CATALOG.json",
+      "bytes": 8446,
+      "sha256": "eda5e611880d26cb74a5fbe2f60b3b86c30c0497b725956146e446c57230508f"
+    },
+    {
+      "path": "metadata/SOURCE_LICENSES.json",
+      "bytes": 25922,
+      "sha256": "f8343f26e96d65e012ed3db1814bd15b7fb8542e1b2b1c6a5b9ec4e15987b88f"
+    },
+    {
+      "path": "notices/FLUXNET_JP-Mse_POLICY.txt",
+      "bytes": 6403,
+      "sha256": "81a8933fc7ac3baac9b987bfebeb51a02f90ae9fc7d1a1559e9d8672ef21dbd8"
+    },
+    {
+      "path": "notices/FLUXNET_KR-CRK_POLICY.txt",
+      "bytes": 6261,
+      "sha256": "ccadd66c39954eed7804d6a24b8577cd9301427b46420b8fb23cf27f7f38dc8b"
+    },
+    {
+      "path": "notices/FLUXNET_KR-CmF_POLICY.txt",
+      "bytes": 6261,
+      "sha256": "ccadd66c39954eed7804d6a24b8577cd9301427b46420b8fb23cf27f7f38dc8b"
+    },
+    {
+      "path": "notices/FLUXNET_KR-HPK_POLICY.txt",
+      "bytes": 6403,
+      "sha256": "81a8933fc7ac3baac9b987bfebeb51a02f90ae9fc7d1a1559e9d8672ef21dbd8"
+    },
+    {
+      "path": "notices/FLUXNET_KR-Nj2_POLICY.txt",
+      "bytes": 6403,
+      "sha256": "81a8933fc7ac3baac9b987bfebeb51a02f90ae9fc7d1a1559e9d8672ef21dbd8"
+    },
+    {
+      "path": "notices/FLUXNET_US-IAC_POLICY.txt",
+      "bytes": 6403,
+      "sha256": "81a8933fc7ac3baac9b987bfebeb51a02f90ae9fc7d1a1559e9d8672ef21dbd8"
+    },
+    {
+      "path": "notices/FLUXNET_US-Ne1_POLICY.txt",
+      "bytes": 6403,
+      "sha256": "81a8933fc7ac3baac9b987bfebeb51a02f90ae9fc7d1a1559e9d8672ef21dbd8"
+    },
+    {
+      "path": "notices/FLUXNET_US-Ne3_POLICY.txt",
+      "bytes": 6403,
+      "sha256": "81a8933fc7ac3baac9b987bfebeb51a02f90ae9fc7d1a1559e9d8672ef21dbd8"
+    },
+    {
+      "path": "notices/FLUXNET_US-Ro1_POLICY.txt",
+      "bytes": 6403,
+      "sha256": "81a8933fc7ac3baac9b987bfebeb51a02f90ae9fc7d1a1559e9d8672ef21dbd8"
+    },
+    {
+      "path": "requirements-verification.txt",
+      "bytes": 43,
+      "sha256": "1d0d4eb11c2f552f4174a3c35208f073ddfe569c66ad3f3c2108bab4afe87afa"
+    }
+  ]
+}

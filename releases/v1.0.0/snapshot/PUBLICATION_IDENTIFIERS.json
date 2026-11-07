@@ -1,0 +1,15 @@
+{
+  "version": "1.0.0",
+  "github_repository_url": "https://github.com/jonghanko/rice-maize-gpp-conditional-pooling",
+  "code_doi": "10.5281/zenodo.24029095",
+  "data_doi": "10.5281/zenodo.24029126",
+  "code_record_url": "https://zenodo.org/records/24029095",
+  "data_record_url": "https://zenodo.org/records/24029126",
+  "publication_date": null,
+  "published": false,
+  "status": "RESERVED_PENDING_PUBLICATION",
+  "intended_publication_date": "2026-11-07",
+  "doi_status": "reserved",
+  "snapshot_status": "prepared_for_publication",
+  "record_url_note": "Canonical record URLs are assigned to reserved records; public availability is not yet confirmed in this package snapshot."
+}
